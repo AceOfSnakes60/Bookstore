@@ -2,14 +2,13 @@ package org.example.UI;
 
 import org.example.Book;
 import org.example.Bookstore;
-import org.example.UI.BookstoreUIInterface;
 import org.example.User;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
 
-public class BookstoreUI implements BookstoreUIInterface {
+public class BookstoreUI {
 
     private Scanner scanner;
     private Bookstore bookstore;
